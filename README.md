@@ -39,7 +39,7 @@ Comprehensive experiments demonstrate the superiority of our method against the 
 5. The settings of network structure and training/fine-tuning parameters are contained in [setting.json](./setting.json). Note that we adjust the decoder to 5-layer CNN, which improves the accuracy with a negligible increase on compututational burden. 
 
 ## Contact
-If you have any question, please feel free to concat Hong Wang (Email: guowenjin@stu.xidian.edu.cn)
+If you have any question, please feel free to concat Wen-jin Guo (Email: guowenjin@stu.xidian.edu.cn)
 
 
 
