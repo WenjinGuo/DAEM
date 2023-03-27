@@ -40,10 +40,15 @@ Comprehensive experiments demonstrate the superiority of our method against the 
 
 ## Citation
 @inproceedings{guo,
+
   title={Toward Stable, Interpretable, and Lightweight Hyperspectral Super-resolution},
+  
   author={Guo, Wen-jin and Xie, Weiying and Jiang, Kai and Li, Yunsong and Lei, Jie and Fang, Leyuan},
+  
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  
   year={2023}
+  
 }
 
 ## Contact
