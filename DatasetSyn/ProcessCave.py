@@ -7,7 +7,7 @@ import torch
 
 
 # cave path (download cave dataset from http://www.cs.columbia.edu/CAVE/databases/)
-file_dir = 'D:/personal/implements/algorithm/datasets/CAVE/'
+file_dir = './CAVE'
 # save path
 save_dir = '../CAVE'
 
