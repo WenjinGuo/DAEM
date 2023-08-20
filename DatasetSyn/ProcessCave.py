@@ -6,7 +6,7 @@ import torch.nn.functional as F
 import torch
 
 
-# cave path (download cave dataset from http://www.cs.columbia.edu/CAVE/databases/)
+# cave path (download cave dataset from https://cave.cs.columbia.edu/old/databases/multispectral/zip/complete_ms_data.zip)
 file_dir = './CAVE'
 # save path
 save_dir = '../CAVE'
