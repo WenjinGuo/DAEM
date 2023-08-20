@@ -146,6 +146,8 @@ def train(json_path: str = "./setting.json", train_index: List = [0, 1], test_in
                     net.log_train(batch_index, epoch, logger)
 
                 save_dir = "./results/"
+                if not os.path.exists(save_dir):
+                    os.mkdir(save_dir)
                 sio.savemat(save_dir + str(img_index) + '.mat', {'data': net.result})
 
                 test_psnr = test_psnr + net.log_dict["psnr_zr_test"]
