@@ -53,6 +53,8 @@ class Model:
 
         self.device = opt["device"]
         self.pth_save_dir = self.opt_train["pth_save_dir"]
+        if not os.path.exists(self.pth_save_dir):
+            os.mkdir(self.pth_save_dir)
         self.pth_save_interval = self.opt_train["pth_save_interval"]
         self.checkpoint_interval = self.opt_train["checkpoint_interval"]
         self.srf = None

@@ -123,7 +123,7 @@
     "checkpoint_interval": 1
   },
   "test":	{
-    "pretrained_path": "./pths/net0.pth",
+    "pretrained_path": "./pths/net99.pth",
     "load": 1,
     "num_epoch": 500,
     "G_optimizer_lr": 5e-3,
